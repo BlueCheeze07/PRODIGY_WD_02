@@ -1,0 +1,113 @@
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.time {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start, #reset {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#stop, #lap {
+    background-color: #f44336;
+    color: white;
+}
+
+#stop, #lap[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#laps li {
+    margin-bottom: 5px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100vw; 
+}
+
+.stopwatch {
+    transform: scale(2); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; 
+    padding: 20px;
+    border: 4px solid #ddd;
+    border-radius: 40px;
+}
+
+.time {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls button {
+    padding: 10px 25px; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start, #reset {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#stop, #lap {
+    background-color: #f44336;
+    color: white;
+}
+
+#stop, #lap[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#laps li {
+    margin-bottom: 5px;
+}
